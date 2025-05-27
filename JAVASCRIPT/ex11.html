@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="regForm">
+    <input name="name" required />
+    <input name="email" required type="email" />
+    <button type="submit">Submit</button>
+  </form>
+  </body>
+  <script>
+  document.getElementById("regForm").onsubmit = function (e) {
+    e.preventDefault();
+    const { name, email } = e.target.elements;
+    if (!name.value || !email.value) {
+      alert("All fields required");
+      return;
+    }
+    console.log("Name:", name.value, "Email:", email.value);
+  };
+  </script>
+</html>

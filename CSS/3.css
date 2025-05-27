@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+#mainHeader {
+    background-color: #004080;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.eventCard {
+    background-color: #e6f2ff;
+    border: 1px solid #99ccff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555;
+}

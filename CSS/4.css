@@ -1,0 +1,16 @@
+body {
+    background-color: #1e2a38;
+    background-image: url('cityscape.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Arial, sans-serif;
+}
+
+h2.section-header {
+    background: linear-gradient(90deg, #004080, #0099ff);
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 0;
+}

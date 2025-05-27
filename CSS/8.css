@@ -1,0 +1,18 @@
+.eventCard {
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: 3px solid #0056b3;
+}
+
+/* For comparison: visibility hidden vs display none */
+.visibility-hidden {
+    visibility: hidden;
+}
+
+.display-none {
+    display: none;
+}

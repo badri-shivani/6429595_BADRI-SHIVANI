@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="document.getElementById('confirm').value='Registration submitted!'">
+        <input type="text" placeholder="Name" required autofocus><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="date" required><br>
+        <select required>
+          <option>Select Event Type</option>
+          <option>Music</option>
+          <option>Art</option>
+        </select><br>
+        <textarea placeholder="Message"></textarea><br>
+        <button type="submit">Register</button>
+        <output id="confirm"></output>
+    </form>      
+</body>
+</html>
